@@ -1,0 +1,27 @@
+header {
+    background-color: $white-color;
+    color: $accent-color;
+    border-bottom: 1px dotted $text-color;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: $spacing-unit / 3;
+    padding-bottom: $spacing-unit / 3;
+
+    &--list {
+        list-style-type: none;
+        padding-left: 0;
+        margin: 0;
+    }
+
+    &--list-item {
+        display: inline;
+
+        &:not(:first-child) {
+            padding-left: $spacing-unit / 1.5;
+        }
+    }
+}

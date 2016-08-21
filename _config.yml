@@ -1,0 +1,15 @@
+# Site settings
+title: Randy Tolentino
+email: randytolentino@us.ibm.com
+description: > # this means to ignore newlines until "baseurl:"
+  Full Stack Developer | Project Whitewater
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+twitter_username: techtolentino
+github_username:  techtolentino
+
+sass:
+    style: compressed
+
+# Build settings
+markdown: kramdown
